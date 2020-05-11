@@ -2786,6 +2786,9 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
+	.image[data-position="center"] img {
+	    object-position: 10% 100%;
+	}
 	/* List */
 	ul.actions {
 		margin: 0 0 2.25em 0;
