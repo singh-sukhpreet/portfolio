@@ -1794,7 +1794,7 @@ input[type="radio"]+label:before {
 	-moz-object-position: center;
 	-webkit-object-position: center;
 	-ms-object-position: center;
-	object-position: 10% 150%;
+	object-position: center;
 }
 
 .image[data-position="25% 25%"] img {
@@ -1866,7 +1866,7 @@ input[type="radio"]+label:before {
 
 .image.main {
 	display: block;
-	height: 50em;
+	height: 20em;
 	border-radius: 0;
 }
 
@@ -2266,7 +2266,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 .features article .image {
 	display: inline-block;
 	padding-right: 2.5em;
-	vertical-align: top;
+	vertical-align: middle;
 	width: 48%;
 }
 
@@ -2785,9 +2785,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	}
 	body, input, select, textarea {
 		font-size: 12pt;
-	}
-	.image[data-position="center"] img {
-	    object-position: 10% 100%;
 	}
 	/* List */
 	ul.actions {
